@@ -1,0 +1,49 @@
+
+.footer{
+    width:100%;
+    height: 44px;
+    background: gray;
+    display: flex;
+    justify-content:space-around;
+    a{
+        display: block;
+        .icon{
+            width:20px;
+            height: 20px;
+            background-size: 100% 100%;
+            margin:0 auto;
+            &.home-icon{
+                background-image: url('/imgs/12.png'); 
+            }
+            &.classify-icon{
+                background-image: url('/imgs/22.png'); 
+            }
+            &.car-icon{
+                background-image: url('/imgs/32.png'); 
+            }
+            &.my-icon{
+                background-image: url('/imgs/42.png'); 
+            }
+        }
+        dd{
+            text-align: center;
+        }
+        &.active{
+            .home-icon{
+                background-image: url('/imgs/11.png'); 
+            }
+            .classify-icon{
+                background-image: url('/imgs/21.png'); 
+            }
+            .car-icon{
+                background-image: url('/imgs/31.png'); 
+            }
+            .my-icon{
+                background-image: url('/imgs/41.png'); 
+            }
+            color:blue;
+        }
+    }
+}
+
+
